@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+p, h1, a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    line-height: 40px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+.title span{
+    color: #F7B67F;
+}
+.btn{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.btn-primary{
+    color: white;
+    background-color: #333;
+}
+.btn-secondary{
+    color: #333;
+    background-color: white;
+}
+.desc{
+    margin: 20px 30px;
+}
+
+
+.nav-bar {
+    background-color: #333;
+    overflow: auto;
+}
+
+.nav-bar .logo {
+    padding: 10px 10px 10px 50px;
+    display: inline-block;
+}
+
+.nav-bar .logo span {
+    color: #F7B67F;
+    float: left;
+}
+
+.nav-bar .container {
+    float: right;
+}
+
+.nav-bar .item {
+    display: inline-block;
+}
+
+.nav-bar .item a {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.nav-bar .item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #F7B67F;
+}
+
+.showcase {
+    background: url(https://ale-html-css.netlify.app/ale_hotel/image/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+}
+.showcase .mask{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.showcase .mask .content{
+    text-align: center;
+}
+
