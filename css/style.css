@@ -93,12 +93,15 @@ a {
 }
 
 .nav-bar .item a {
-    display: inline-block;
+    display: block;
     padding: 15px 20px;
+    text-align: center;
 }
 
-.nav-bar .item a:hover {
+.nav-bar .container .item:hover{
     background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-bar .item a:hover {
     color: #F7B67F;
 }
 /* Showcase */

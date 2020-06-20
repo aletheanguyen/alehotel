@@ -6,8 +6,22 @@
     display: inline-block;
     padding: 6px 20px;
 }
-#men-icon:hover .content{
+#menu-icon .menu-mobile{
+    display: none;
+}
+#menu-icon:hover .menu-mobile{
     display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 100;
+    top: 60px;
+    right: 0px;
+    position: absolute;
+}
+.nav-bar .item {
+    display: block;
+}
+#menu-icon .menu-mobile a:hover{
+    color: #333;
 }
 .history .container{
     flex-direction: column;
