@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alehotel</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and max-width:768px" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/42c8d04b98.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,6 +15,7 @@
         <h1 class="logo"><span>Ale&nbsp;
             </span> Hotel</h1>
         <div class="container">
+            <i class="fas fa-bars fa-3x" id="menu-icon"></i>
             <ul class="content">
                 <li class="item">
                     <a href="">Home</a></li>
@@ -26,8 +28,9 @@
             </ul>
         </div>
     </nav>
+    <!-- SHOWCASE -->
     <div class="showcase">
-        <div class="mask">
+        <div class="mask flex-center">
             <div class="content">
                 <h1 class="title"><span>Enjoy&nbsp;</span>your stay</h1>
                 <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam earum id dolores
@@ -39,6 +42,82 @@
             </div>
         </div>
     </div>
+    <!-- HISTORY -->
+    <div class="history">
+        <div class="container">
+           <div class="img">
+               <img src="https://ale-html-css.netlify.app/ale_hotel/image/history.jpeg" alt="">
+           </div>
+            <div class="content flex-center">
+                <h1 class="title"><span>The History&nbsp;</span>of your Hotel</h1>
+                <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto hic, quidem excepturi tenetur laboriosam, unde odit a ex tempora quibusdam dicta ducimus. Ea, ipsa. Reprehenderit odio suscipit iure explicabo voluptates enim molestias recusandae saepe nihil dolorem quis, rerum consequatur in.</p>
+                <a href="" class="btn btn-secondary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <!-- FACULTY -->
+    <div class="faculty">
+        <div class="container">
+            <div class="content flex-center">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h1 class="title">Great hotel</h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore deleniti odit, quam quia porro.</p>
+            </div>
+            <div class="content flex-center" id="faculty-item-2">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h1 class="title">Great hotel</h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore deleniti odit, quam quia porro.</p>
+            </div>
+            <div class="content flex-center">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h1 class="title">Great hotel</h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi labore deleniti odit, quam quia porro.</p>
+            </div>
+        </div>
+    </div>
+    <!-- REVIEW -->
+    <div class="review">
+        <div class="mask">
+            <div class="container">
+            <div class="content">
+                <h1 class="title">What Our <span>Guess Say</span></h1>
+                <div class="item">
+                    <img src="https://ale-html-css.netlify.app/ale_hotel/image/avatar1.jpg" alt="" class="avatar">
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis fugiat veniam facilis voluptates explicabo! Blanditiis dolorem in facilis architecto?</p>
+                </div>
+                <div class="item">
+                    <img src="https://ale-html-css.netlify.app/ale_hotel/image/avatar1.jpg" alt="" class="avatar">
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore debitis fugiat veniam facilis voluptates explicabo! Blanditiis dolorem in facilis architecto?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="contact">
+        <div class="container">
+            <div class="content">
+                <h1 class="title"><span>Contact</span> Us</h1>
+                <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quas nulla sequi numquam, assumenda magni obcaecati saepe rem, sunt porro eum quisquam debitis alias, voluptatem rerum facere deserunt? Necessitatibus, officiis!</p>
+                <div class="form">
+                    <form action class="form"></form>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" rows="10"></textarea>
+                    
+                    <input type="button" value="Submit" class="btn btn-dark">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Ale Hotel @2020, All Right Reserved
+    </footer>
 </body>
 
 </html>

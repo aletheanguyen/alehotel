@@ -1,0 +1,17 @@
+.nav-bar .container .content{
+    display: none;
+}
+
+#menu-icon{
+    display: inline-block;
+    padding: 6px 20px;
+}
+#men-icon:hover .content{
+    display: block;
+}
+.history .container{
+    flex-direction: column;
+}
+.faculty .container{
+    flex-direction: column;
+}
